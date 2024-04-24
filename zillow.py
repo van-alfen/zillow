@@ -133,7 +133,7 @@ app.title = 'Zillow Map'
 app.layout = dbc.Container(
 	children=[
 		# title
-		html.H1('Change in Zillow Home Value Index', className='text-center mt-5'),
+		html.H1('Change in Zillow Home Value Index (ZHVI)', className='text-center mt-5'),
 		# chart
 		dcc.Graph(
 			id='zillow_chart',
